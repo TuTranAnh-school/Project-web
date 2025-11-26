@@ -27,8 +27,9 @@ nav a{
 
 body {
     background-image: url('Asset/Background.jpg');
-    background-size: 750px 375px;
-    image-center: center;
+    background-size: 600px 300px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
