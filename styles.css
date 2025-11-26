@@ -3,15 +3,21 @@ html {
 }
 
 header {
-    background-color: darkgreen;
-    text-align: center;
-    padding: 10px;
+  background-color: green;
+  text-align: center;
+  padding: 10px;
 }
 
-nav a {
+nav {
+  background-color: darkgreen;
+  text-align: center;
+  padding: 10px;   
+}
+
+nav a{
     margin: 0 15px;
     text-decoration: none;
-    color: darkgreen;
+    color: black;
     font-weight: bold;
 }
 
