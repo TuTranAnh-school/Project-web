@@ -17,11 +17,18 @@ nav {
 nav a{
     margin: 0 15px;
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
+    display: inline-block;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0px 5px;
 }
 
 body {
+    background-image: url('Asset/Background.jpg');
+    background-size: 750px 375px;
+    image-center: center;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
