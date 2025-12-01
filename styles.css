@@ -199,6 +199,7 @@ footer {
   margin: -10px auto;   
   margin-left: -10px;
   margin-top: -10px;
+  margin-bottom: 50px;
 }
 
 .Assortiment-body {
@@ -215,7 +216,8 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   gap: 5px;
   padding: 10px 5px;
-  max-width: 100%;
+  width: 100%;
+  height: 70%;
   margin: -10px auto 0 auto;
   background-color: white;
 }
@@ -240,10 +242,34 @@ footer {
 .flower-card-Assortiment-large p {
   grid-column: span 2;
   grid-row: span 2;
+  margin: 2px;
+  font-size: 8px;
+  color: #333;
+  padding: 5px;
+  background-color: #c8e6c9;
+  border-radius: 4px;
 }
+  
 
 .flower-card-Assortiment-large img {
   height: 300px;
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 900px) {
+  .Assortiment-body {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .Assortiment-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .Random-Line {
