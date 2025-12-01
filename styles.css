@@ -2,7 +2,7 @@ html {
     text-align: center;
 }
 
-header {
+.header-Home-Page {
   background-color: #3c643c;
   padding: 10px;
   position: center;
@@ -10,7 +10,7 @@ header {
   margin: 0 auto;
 }
 
-nav {
+.nav-Home-Page{
   background-color: #024f02;
   text-align: center;
   padding: 5px;
@@ -30,7 +30,7 @@ nav a{
     padding: 3px 6px;
 }
 
-body {
+.body-Home-Page {
     background-image: url('Asset/Background.jpg');
     background-size: 500px 250px;
     background-repeat: no-repeat;
@@ -179,3 +179,92 @@ footer {
     text-align: left;
   }
 }
+
+/* Assortiment Page Styles */
+
+.header-Assortiment {
+  background-color: #3c643c;
+  padding: 10px;
+  position: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-Assortiment{
+  background-color: #024f02;
+  text-align: center;
+  padding: 5px;
+  position: center;
+  width: 100%;
+  margin: -10px auto;   
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+.Assortiment-body {
+    background-color: #f0f8f0;
+    font-family: Arial, sans-serif;
+    background-position: center 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.Random-Line {
+    width: 100%;
+    height: 40px;
+    background-color: #3c643c;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    margin-top: -12px;  /* move it up towards the footer */
+    position: relative;
+    z-index: 999;  /* keep it above other content but below footer */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2f4f36;
+  color: #fff;
+  padding: 12px 20px 8px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  z-index: 1000;
+}
+
+.footer-container-Assortiment {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: flex-start;
+}
+
+.footer-left-Assortiment p,
+.footer-right-Assortiment p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #eef6ea;
+}
+
+.footer-right-Assortiment h4 {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-right {
+    margin-top: 6px;
+    text-align: left;
+  }
+}
+
+/*Here starts Tje Contact.html css*/
