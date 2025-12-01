@@ -5,12 +5,18 @@ html {
 header {
   background-color: #3c643c;
   padding: 10px;
+  position: center;
+  width: 382px;
+  margin: 0 auto;
 }
 
 nav {
   background-color: #024f02;
   text-align: center;
-  padding: 5px;   
+  padding: 5px;
+  position: center;
+  width: 391px;
+  margin: 0 auto;   
 }
 
 nav a{
@@ -50,6 +56,8 @@ body {
   color: white;
   font-size: 18px;
   font-weight: bold;
+  position: center;
+  width: 400px;
 }
 
 .flower-gallery {
@@ -123,22 +131,11 @@ body {
 footer {
   position: fixed;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #254525;
-  padding: 8px;
-  text-align: center;
-  z-index: 1000;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  left: 534px;
+  width: 380px;
   background-color: #2f4f36;
   color: #fff;
-  padding: 12px 20px 8px;  /* reduced from 28px 20px 12px */
+  padding: 12px 20px 8px;
   font-family: Arial, sans-serif;
   text-align: center;
   z-index: 1000;
