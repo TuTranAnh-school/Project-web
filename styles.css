@@ -225,20 +225,21 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
   gap: 5px;
+  margin-left: 10px;
 }
 
 .flower-gallery-Assortiment_2 {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
   margin-top: 150px;
-  margin-left: -667px;
+  margin-left: -657px;
 }
 
 .flower-gallery-Assortiment_3 {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
   margin-top: -150px;
-  margin-left: -315px;
+  margin-left: -320px;
 }
 
 .flower-gallery-Assortiment img{
