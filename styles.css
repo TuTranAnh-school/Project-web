@@ -213,12 +213,24 @@ footer {
 
 .flower-gallery-Assortiment {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 3fr);
   padding: 10px 5px;
   width: 45%;
   max-height: 100%;
   margin: 0 auto 0 auto;
   background-color: white;
+}
+
+.flower-gallery-Assortiment_2 {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  margin-left: -600px;
+  margin-top: 150px;
+}
+
+.flower-gallery-Assortiment_3 {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
 }
 
 .flower-gallery-Assortiment img{
@@ -250,28 +262,29 @@ footer {
   background-color: #c8e6c9;
   border-radius: 4px;
   max-width: 300px;
-  margin-left: -150px;
+  margin-left: 20px;
 }
 
 .flower-card-Assortiment-large img {
   height: 250px;
   width: 325px;
+  grid-column: span 2;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 5px;
-  margin-left: -170px;
+  margin-left: 10px;
 }
 
 @media (max-width: 900px) {
   .Assortiment-body {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 3fr);
   }
 }
 
 @media (max-width: 600px) {
   .Assortiment-body {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 3fr);
   }
 }
 
