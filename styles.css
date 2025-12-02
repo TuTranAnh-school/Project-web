@@ -195,9 +195,9 @@ footer {
   text-align: center;
   padding: 5px;
   position: center;
-  width: 100%;
+  width: 110%;
   margin: -10px auto;   
-  margin-left: -10px;
+  margin-left: -80px;
   margin-top: -10px;
   margin-bottom: 50px;
 }
@@ -221,16 +221,24 @@ footer {
   background-color: white;
 }
 
+.flower-gallery-Assortiment_1 {
+  display: grid;
+  grid-template-columns: repeat(4, 3fr);
+  gap: 5px;
+}
+
 .flower-gallery-Assortiment_2 {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
-  margin-left: -600px;
-  margin-top: 150px;
+  margin-top: 180px;
+  margin-left: -667px;
 }
 
 .flower-gallery-Assortiment_3 {
   display: grid;
   grid-template-columns: repeat(4, 3fr);
+  margin-top: -120px;
+  margin-left: -310px;
 }
 
 .flower-gallery-Assortiment img{
@@ -250,19 +258,8 @@ footer {
   padding: 5px;
   background-color: #c8e6c9;
   border-radius: 4px;
-  max-width: 140px;
-  margin-left: 20px;
-}
-
-.flower-card-Assortiment-large p {
-  margin: 2px;
-  font-size: 8px;
-  color: #333;
-  padding: 5px;
-  background-color: #c8e6c9;
-  border-radius: 4px;
-  max-width: 300px;
-  margin-left: 20px;
+  max-width: 150px;
+  margin-left: 0px;
 }
 
 .flower-card-Assortiment-large img {
@@ -273,7 +270,19 @@ footer {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 5px;
-  margin-left: 10px;
+  margin-left: -400%;
+  margin-top: 150px;
+}
+
+.flower-card-Assortiment-large p {
+  margin: 2px;
+  font-size: 8px;
+  color: #333;
+  padding: 5px;
+  background-color: #c8e6c9;
+  border-radius: 4px;
+  max-width: 320px;
+  margin-left: -665px;
 }
 
 @media (max-width: 900px) {
