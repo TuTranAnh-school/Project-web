@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="NL">
+<html lang="nl">
     <head>
         <link rel="stylesheet" href="styles.css">
             <meta charset="UTF-8">
@@ -10,9 +10,6 @@
             <a href = "Asset/Nora'sFloraLogo.png" target="Logo">
                 <img src = "Asset/Nora'sFloraLogo.png" alt ="Logo" width="60px" height="40px">
             </a>
-        </header> 
-   
-    <body>
     <div class="navbar">
         <nav>   
             <a href = "Home page.html">Home page</a>
@@ -24,37 +21,70 @@
         <h1>Welkom bij Nora's Flora!</h1>
         <p>De beste persoonlijke bouqetten en bloem in Zwolle</p>
     </div>
-    <body>
-        <textarea>Type hier jouw vraag of opmerking</textarea>
-        <br> 
-<form action="" method="get">
-  <label for="Email">Email:</label>
-  <input id="Email" name="Email" type="email" required>
-  <input type="submit" value="Save">
-</form>
-<br>
-<form action="" method="get">
-  <label for="Phone">Telefoonnummer:</label>
-  <input id="Phone" name="Phone" type="tel" required>
-  <input type="submit" value="Save">
-</form>
-    </body>
-    <footer>
+    </header>
+
+    <main class="intro-section-container">
+        <section class="intro-section">
+            <h1>Neem contact op!</h1>
+            <p1>Heb je een vraag over onze bloemen, een bestelling of wil je gewoon even hallo zeggen?</p1>
+            <br>
+            <p2> We horen graag van je! Vul het contactformulier in of stuur ons een berichtje via e-mail of telefoon.</p2>
+            <br>
+            <p3>Nora's Flora staat klaar om je te helpen met al je bloemige wensen.</p3>
+        </section>
+
+        <section class="contact-form-section" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Neem contact op</h2>
+            <p>Vul het formulier in en we nemen zo snel mogelijk contact met je op.</p>
+
+            <form action="" method="post" class="contact-form" novalidate>
+                <div class="form-row">
+                    <label for="name">Naam</label>
+                    <input id="name" name="name" type="text" placeholder="Jouw naam" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">E‑mail</label>
+                    <input id="email" name="email" type="email" placeholder="naam@example.com" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="phone">Telefoonnummer</label>
+                    <input id="phone" name="phone" type="tel" placeholder="06-12345678" pattern="^\+?[0-9\s\-]{6,20}$" aria-describedby="phone-help">
+
+                </div>
+
+                <div class="form-row">
+                    <label for="message">Bericht</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Type hier jouw vraag of opmerking" required></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit">Verstuur</button>
+                    <button type="reset">Wis</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
         <div class="footer-container">
-        <div class="footer-left">
-        <p>
-            <strong>Email</strong> : contact@noraflora.com<br>
-            <strong>Telefoon</strong> : 06 12345678<br>
-            <strong>Adres</strong> : Zwolle, pannenkoekendijk 420 B
-        </p>
-    </div>
-    <div class="footer-right">
-      <h4>Openingstijden</h4>
-      <p>
-        Ma - Vr : 12:00 - 17:00<br>
-        Zaterdag : 10:00 - 17:00
-      </p>
-    </div>
-  </div>
-</footer>
+            <div class="footer-left">
+                <p>
+                    <strong>E‑mail</strong>: <a href="mailto:contact@noraflora.com">contact@noraflora.com</a><br>
+                    <strong>Telefoon</strong>: <a href="tel:+31612345678">06 12345678</a><br>
+                    <strong>Adres</strong>: Zwolle, Pannenkoekendijk 420 B
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <h4>Openingstijden</h4>
+                <p>
+                    Ma - Vr: 12:00 - 17:00<br>
+                    Zaterdag: 10:00 - 17:00
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
