@@ -6,24 +6,20 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Nora's Flora</title>
     </head>
-        <header>
+        <header class="header-Contact">
             <a href = "Asset/Nora'sFloraLogo.png" target="Logo">
                 <img src = "Asset/Nora'sFloraLogo.png" alt ="Logo" width="60px" height="40px">
-            </a>
-    <div class="navbar">
+            </a>    
+    </header>
+    <body class="body-Contact">
+    <div class="nav-Contact-Page">
         <nav>   
             <a href = "Home page.html">Home page</a>
             <a href = "Assortiment.html">Assortiment</a>
             <a href = "Contact.html">Contact</a>
         </nav>
-    </div>    
-    <div class="welcome-message">
-        <h1>Welkom bij Nora's Flora!</h1>
-        <p>De beste persoonlijke bouqetten en bloem in Zwolle</p>
     </div>
-    </header>
-
-    <main class="intro-section-container">
+        <div class="Random-Line_1"></div>
         <section class="intro-section">
             <h1>Neem contact op!</h1>
             <p1>Heb je een vraag over onze bloemen, een bestelling of wil je gewoon even hallo zeggen?</p1>
@@ -37,10 +33,9 @@
             <h2 id="contact-heading">Neem contact op</h2>
             <p>Vul het formulier in en we nemen zo snel mogelijk contact met je op.</p>
 
-            <form action="" method="post" class="contact-form" novalidate>
                 <div class="form-row">
-                    <label for="name">Naam</label>
-                    <input id="name" name="name" type="text" placeholder="Jouw naam" required>
+                    <label for="message">Bericht</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Type hier jouw vraag of opmerking" required></textarea>
                 </div>
 
                 <div class="form-row">
@@ -48,28 +43,17 @@
                     <input id="email" name="email" type="email" placeholder="naam@example.com" required>
                 </div>
 
-                <div class="form-row">
-                    <label for="phone">Telefoonnummer</label>
-                    <input id="phone" name="phone" type="tel" placeholder="06-12345678" pattern="^\+?[0-9\s\-]{6,20}$" aria-describedby="phone-help">
-
-                </div>
-
-                <div class="form-row">
-                    <label for="message">Bericht</label>
-                    <textarea id="message" name="message" rows="6" placeholder="Type hier jouw vraag of opmerking" required></textarea>
-                </div>
-
                 <div class="form-actions">
-                    <button type="submit">Verstuur</button>
-                    <button type="reset">Wis</button>
+                    <button type="submit">Verzenden</button>
                 </div>
             </form>
         </section>
-    </main>
-
+</body>
     <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-left">
+        <div class="Random-Line_2"></div>
+        <div class="Random-Line_3"></div>
+        <div class="footer-container-Contact">
+            <div class="footer-left-Contact">
                 <p>
                     <strong>E‑mail</strong>: <a href="mailto:contact@noraflora.com">contact@noraflora.com</a><br>
                     <strong>Telefoon</strong>: <a href="tel:+31612345678">06 12345678</a><br>
@@ -77,7 +61,7 @@
                 </p>
             </div>
 
-            <div class="footer-right">
+            <div class="footer-right-Contact">
                 <h4>Openingstijden</h4>
                 <p>
                     Ma - Vr: 12:00 - 17:00<br>
