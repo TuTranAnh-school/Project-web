@@ -1,0 +1,52 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Site Index</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		.index-container{max-width:900px;margin:48px auto;padding:16px;text-align:left}
+		.site-list{display:grid;gap:12px}
+		.site-card{display:flex;align-items:center;gap:12px;padding:12px;border-radius:8px;background:#f6f6f6}
+		.site-card img{width:96px;height:64px;object-fit:cover;border-radius:6px}
+		.site-card a{font-weight:700;color:#0b6b0b;text-decoration:none}
+		.site-card p{margin:4px 0;color:#333}
+	</style>
+</head>
+<body>
+	<main class="index-container">
+		<h1>My Website Collection</h1>
+		<p>Quick links to each page in this project.</p>
+
+		<div class="site-list">
+			<article class="site-card">
+				<img src="Asset/home.png" alt="Home thumbnail">
+				<div>
+					<a href="home page.html">Home Page</a>
+					<p>Primary landing page for the site.</p>
+				</div>
+			</article>
+
+			<article class="site-card">
+				<img src="Asset/Bouque.avif" alt="Assortiment thumbnail">
+				<div>
+					<a href="assortiment.html">Assortiment</a>
+					<p>Product gallery / assortment page.</p>
+				</div>
+			</article>
+
+			<article class="site-card">
+				<img src="Asset/phone.png" alt="Contact thumbnail">
+				<div>
+					<a href="contact.html">Contact</a>
+					<p>Contact form and business information.</p>
+				</div>
+			</article>
+		</div>
+	</main>
+</body>
+</html>
+
