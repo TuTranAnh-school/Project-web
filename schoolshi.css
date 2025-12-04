@@ -1,0 +1,78 @@
+/* Global variables */
+:root{
+  --dark:#264732;     /* main dark green */
+  --dark-2:#243f2f;   /* slightly darker */
+  --accent:#dfeec0;   /* pale green strip */
+  --pale:#f3f6e9;     /* form background */
+  --muted:#d9e6c3;
+  --text:#f1f6ef;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:var(--dark);
+  color:var(--text);
+}
+
+/* Container */
+.container{
+  max-width:1000px;
+  margin:0 auto;
+  padding:20px;
+}
+
+/* Header */
+.site-header .top-strip{height:8px;background:var(--dark-2)}
+.site-header .accent-strip{height:18px;background:var(--accent)}
+.header-inner{
+  max-width:1000px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:16px 20px;
+}
+.logo{
+  background:transparent;
+  color:var(--text);
+  font-weight:700;
+  font-size:20px;
+  padding:6px 14px;
+  border-radius:18px;
+}
+.logo img{height:64px;display:block}
+.logo img{object-fit:contain}
+.main-nav a{color:var(--muted);text-decoration:none;font-size:15px}
+.main-nav a + a::before{content:' | ';color:var(--muted);padding:0 10px}
+
+/* Hero / Contact section */
+.contact-hero{background:var(--dark);padding:50px 0}
+.page-title{font-size:32px;text-align:center;margin:6px 0 32px;color:var(--text)}
+.columns{display:flex;gap:40px;align-items:flex-start}
+.col.left{flex:1;color:#d8e6d6;line-height:1.6}
+.col.right{width:380px}
+
+.contact-info{margin-top:34px;font-size:16px;color:#dfe6d6}
+
+/* Form styling */
+.contact-form textarea{width:100%;min-height:200px;border-radius:12px;border:none;padding:18px;background:var(--pale);color:#333;font-size:15px;resize:vertical}
+.contact-form input[type=email]{width:100%;margin-top:16px;border-radius:6px;border:none;padding:10px 12px;background:var(--pale);color:#333}
+.contact-form button{display:block;width:260px;margin:18px auto 0;padding:12px 18px;border-radius:24px;border:none;background:var(--accent);color:#12321a;font-weight:600;cursor:pointer}
+
+/* Mid light strip */
+.mid-strip{height:18px;background:var(--accent)}
+
+/* Footer */
+.site-footer{background:var(--dark-2);padding:48px 0;color:var(--text)}
+.footer-inner{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}
+.footer-left{color:#e7f0df}
+.footer-right h3{margin:0 0 8px 0}
+
+/* small responsive tweaks */
+@media (max-width:900px){
+  .columns{flex-direction:column}
+  .col.right{width:100%}
+  .footer-inner{flex-direction:column}
+}
