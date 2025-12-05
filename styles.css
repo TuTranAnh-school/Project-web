@@ -155,8 +155,15 @@ footer {
   align-items: flex-start;
 }
 
-.footer-left p,
+.footer-left p {
+  text-align: left;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #eef6ea;
+}
 .footer-right p {
+  text-align: right;
   margin: 0;
   font-size: 12px;
   line-height: 1.4;
@@ -331,8 +338,16 @@ footer {
   align-items: flex-start;
 }
 
-.footer-left-Assortiment p,
+.footer-left-Assortiment p{
+  text-align: left;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #eef6ea;
+}
+
 .footer-right-Assortiment p {
+  text-align: right;
   margin: 0;
   font-size: 12px;
   line-height: 1.4;
@@ -486,8 +501,17 @@ footer {
   align-items: flex-start;
 }
 
-.footer-left-Contact p,
+.footer-left-Contact p{
+  text-align: left;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #eef6ea;
+  margin-bottom: 10px;
+}
+
 .footer-right-Contact p {
+  text-align: right;
   margin: 0;
   font-size: 12px;
   line-height: 1.4;
