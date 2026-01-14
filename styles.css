@@ -31,10 +31,10 @@ nav a{
 }
 
 .body-Home-Page {
-    background-image: url('Asset/Background.jpg');
-    background-size: 100% 270px;
-    background-repeat: no-repeat;
-    background-position: center 80px;
+  background-image: url('Asset/Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -48,15 +48,35 @@ nav a{
 }
 
 .bloemetjes {
-  background-color: #3c643c;
-  padding: 1px;
-  margin: 5% auto 5% auto;
+  background-color: transparent;
+  position: relative;
+  padding: 10px 0 0 0;
+  margin: 10% auto 0 auto;
   text-align: center;
-  line-height: 0.03;
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: bold;
   width: 100%;
+}
+
+.bloemetjes h5 {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0 10px;
+  z-index: 1;
+}
+
+.bloemetjes::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 7%;
+  transform: translateY(0px);
+  height: 50px;
+  background-color: #3c643c;
+  z-index: 0;
 }
 
 .flower-gallery {
