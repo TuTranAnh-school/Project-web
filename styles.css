@@ -41,16 +41,16 @@ nav a{
 }
 
 .welcome-message {
-    font-size: 10px;
+    font-size: 20px;
     color: white;
     margin: 80px 0 20px 0;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
 }
 
 .welcome-message h1 {
   font-size: 32px;
   margin: 0 0 6px 0;
-  text-shadow: 4px 4px 10px rgba(0,0,0,0.7);
+  text-shadow: 8px 8px 20px rgba(0,0,0,0.7);
 }
 
 .bloemetjes {
