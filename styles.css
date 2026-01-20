@@ -567,7 +567,7 @@ footer {
   color: #ffffff;
 }
 
-/*Here starts The Index.html css*/
+
 .index-container{max-width:900px;margin:48px auto;padding:16px;text-align:left}
 		.site-list{display:grid;gap:12px}
 		.site-card{display:flex;align-items:center;gap:12px;padding:12px;border-radius:8px;background:#f6f6f6}
